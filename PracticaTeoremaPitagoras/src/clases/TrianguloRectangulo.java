@@ -35,7 +35,7 @@ public class TrianguloRectangulo {
 	 * @return devuelve el resultado de la operacion
 	 */
 	public double area() {
-		double res = (a * b) / 2;
+		double res = (a * b) / 2.0;
 		return res;
 	}
 
@@ -46,7 +46,7 @@ public class TrianguloRectangulo {
 	 */
 	public double hipotenusa() {
 
-		c = (int) Math.sqrt(a * a + b * b);
+		c =  Math.sqrt(a * a + b * b);
 		return c;
 	}
 /**

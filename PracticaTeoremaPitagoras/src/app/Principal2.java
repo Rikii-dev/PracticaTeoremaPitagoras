@@ -5,7 +5,7 @@ import clases.TrianguloRectangulo;
 public class Principal2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		double areaConValores, areaPorDefecto, perimetroConValores, perimetroPorDefecto;
 		TrianguloRectangulo convalores= new TrianguloRectangulo(5,4);
 		TrianguloRectangulo pordefecto= new TrianguloRectangulo();
